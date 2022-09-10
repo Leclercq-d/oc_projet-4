@@ -287,6 +287,10 @@ a:hover {
     font-size: 32px;
 }
 
+#form_1{
+    margin-bottom:20px;
+}
+
 .navbar {
     margin-bottom: 0;
     z-index: 1;
@@ -678,6 +682,7 @@ a {
 
 p {
     font-size: 15px;
+    text-align:center;
 }
 
 .tight-width-whitespace {
@@ -705,7 +710,7 @@ p {
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 20px;
     line-height: 1.4em;
 }
 
