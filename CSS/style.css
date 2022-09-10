@@ -18,6 +18,11 @@ a:hover {
     cursor: pointer;
 }
 
+i {
+    font-size:30px!important;
+    color:#e4dfdf;
+}
+
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
