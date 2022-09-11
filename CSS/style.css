@@ -7,6 +7,10 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+.page-container{
+    max-width:1440px;
+    overflow-x: hidden;
+}
 a,
 button {
     transition: all .3s ease-in-out;
@@ -18,9 +22,17 @@ a:hover {
     cursor: pointer;
 }
 
+#c__contact{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
 footer i {
     font-size:30px!important;
     color:#e4dfdf;
+    margin-bottom:10px;
 }
 
 footer p{
@@ -773,7 +785,7 @@ h4 {
 }
 @media screen and (max-width:768px){
     .a__col-sm-6 {
-        width: 100%;
+        width: 300px;
     }    
     .portfolio-row{
         flex-direction:column;
@@ -900,7 +912,7 @@ h4 {
     .b-parallax {
         background-attachment: scroll;
     }
-    .page-container,
+    
     #hero-bloc {
         overflow-x: hidden;
         position: relative;
