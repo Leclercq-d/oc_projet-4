@@ -45,7 +45,6 @@ footer p{
     width: 100%;
     clear: both;
     background: 50% 50% no-repeat;
-    padding: 0 50px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -295,6 +294,10 @@ footer p{
 .row.row-no-gutters > [class*=" col-"] {
     padding-right: 0;
     padding-left: 0;
+}
+
+#bloc-0{
+    padding:0 30px;
 }
 
 #bloc-1-hero h1 {
@@ -700,7 +703,7 @@ p {
 }
 
 .tight-width-whitespace {
-    max-width: 600px;
+    width: 100%;
     margin: auto auto auto auto;
 }
 
@@ -763,8 +766,19 @@ h4 {
 }
 
 .portfolio-row {
+    display:flex;
+    flex-direction:row;
     margin-bottom: 44px;
     margin-top: 50px;
+}
+@media screen and (max-width:768px){
+    .a__col-sm-6 {
+        width: 100%;
+    }    
+    .portfolio-row{
+        flex-direction:column;
+        align-items: center;
+    }
 }
 
 .avatar {
