@@ -1661,6 +1661,13 @@ mark {
     text-align: center
 }
 
+.text-center img{
+    width:60px
+}
+
+#browser__img{
+    width:78px;
+}
 .text-justify {
     text-align: justify
 }
