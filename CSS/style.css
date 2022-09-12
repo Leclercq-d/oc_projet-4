@@ -65,8 +65,8 @@ footer p{
 }
 
 .bloc .container {
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .bloc-lg {
@@ -751,8 +751,8 @@ h3 {
 }
 
 .med-width-whitespace {
-    max-width: 800px;
-    margin: auto auto auto auto;
+    max-width: 100%;
+    margin: 30px 30px;
     box-shadow: 0px 0px 0px #000000;
 }
 
