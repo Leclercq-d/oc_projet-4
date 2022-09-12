@@ -116,7 +116,7 @@ footer p{
 }
 
 .texture-paper::before {
-    background: url("../ASSETS/texture-paper.png");
+    background: url("../ASSETS/texture-paper.webp");
     background-size: 280px 280px;
 }
 
@@ -791,6 +791,9 @@ h4 {
         flex-direction:column;
         align-items: center;
     }
+    .bloc .container {
+      padding: 20px 0;
+    }
 }
 
 .avatar {
@@ -855,19 +858,19 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("../ASSETS/dots-bg.png");
+    background-image: url("../ASSETS/dots-bg.webp");
 }
 
 .bg-lines-h2-bg {
-    background-image: url("../ASSETS/lines-h2-bg.png");
+    background-image: url("../ASSETS/lines-h2-bg.webp");
 }
 
 .bg-banniere {
-    background-image: url("../ASSETS/agence-la-panthere.jpg");
+    background-image: url("../ASSETS/agence-la-panthere.webp");
 }
 
 .bg-presentation {
-    background-image: url("../ASSETS/image-de-presentation.jpg");
+    background-image: url("../ASSETS/image-de-presentation.webp");
 }
 
 @media (max-width: 1024px) {
