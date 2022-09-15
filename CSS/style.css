@@ -5,6 +5,15 @@ body {
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    box-sizing: border-box;
+}
+
+header{
+    max-width:1440px;
+}
+
+footer{
+    max-width:1440px;
 }
 
 .page-container{
@@ -67,10 +76,11 @@ footer p{
 .bloc .container {
     padding-left: 20px;
     padding-right: 20px;
+    width:100%
 }
 
 .bloc-lg {
-    padding: 100px 50px;
+    padding: 50px;
 }
 
 .bloc-md {
@@ -793,7 +803,7 @@ h4 {
         align-items: center;
     }
     .bloc .container {
-      padding: 20px 0;
+      padding: 0;
     }
     #bloc-0{
         padding:0;
@@ -866,10 +876,6 @@ h4 {
 
 .bg-dots-bg {
     background-image: url("../ASSETS/dots-bg.webp");
-}
-
-.bg-lines-h2-bg {
-    background-image: url("../ASSETS/lines-h2-bg.webp");
 }
 
 .bg-banniere {
@@ -1030,8 +1036,7 @@ h4 {
         margin-left: 10px;
     }
     .bloc {
-        padding-left: 0;
-        padding-right: 0;
+       padding:20px 0;
     }
     .bloc-xxl,
     .bloc-xl,
