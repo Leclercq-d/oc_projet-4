@@ -9,15 +9,30 @@ body {
 }
 
 header{
-    max-width:1440px;
+   display:flex;
+   align-items:center;
 }
 
+header div{
+    max-width:1440px
+}
+
+main{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+main div{
+    max-width:1440px
+}
 footer{
-    max-width:1440px;
+    display:flex;
+   align-items:center;
 }
 
 .page-container{
-    max-width:1440px;
+    
     overflow-x: hidden;
 }
 a,
@@ -46,6 +61,10 @@ footer i {
 
 footer p{
     margin-bottom:20px;
+}
+
+.bande-formulaire{
+    color:black !important;
 }
 
 #page-loading-blocs-notifaction {
@@ -699,7 +718,7 @@ a {
 }
 
 .container {
-    max-width: 100%;
+    max-width: 1440px;
 }
 
 .hero-bloc-text {
@@ -836,15 +855,15 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #583a31cf;
+    background-color: #F3976C;
 }
 
 .tc-white {
-    color: #ffffff!important;
+    color: #F3976C!important;
 }
 
 .btn-atomic-tangerine {
-    background: #583a31cf;
+    background: #F3976C;
     color: #FFFFFF!important;
 }
 
