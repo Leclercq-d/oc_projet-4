@@ -26,6 +26,10 @@ main{
 main div{
     max-width:1440px
 }
+
+.main-icon{
+    color:#364577!important
+}
 footer{
     display:flex;
    align-items:center;
