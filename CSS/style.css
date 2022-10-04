@@ -30,6 +30,10 @@ main div{
 .main-icon{
     color:#364577!important
 }
+
+#last-h2{
+    color:white!important;
+}
 footer{
     display:flex;
    align-items:center;
